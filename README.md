@@ -11,7 +11,9 @@ To install redis please visit: https://redis.io/topics/quickstart.
 To install redis library for python please visit: https://pypi.org/project/redis/.
 
 ## Tutorial
-Nice dynamic tutorial: https://try.redis.io/
+Nice dynamic tutorial of the redis-client : https://try.redis.io/.
+Official redis commands documentation: https://redis.io/commands.
+Nice tutorial of redis-py commands: https://pypi.org/project/redis/.
 
 ## Running Redis
 Start the redis server typing from terminal:
