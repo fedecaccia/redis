@@ -6,8 +6,9 @@ Useful scripts to use redis and redis with python.
 Redis is a database engine in memory, based on the storage in hashes tables (key / value) but which can optionally be used as a durable or persistent database. To read more about persistance pleas visit: https://redis.io/topics/persistence.
 
 ## Installation
-To install redis please visit: https://redis.io/topics/quickstart
-To install redis library for python please visit: https://pypi.org/project/redis/
+To install redis please visit: https://redis.io/topics/quickstart.
+
+To install redis library for python please visit: https://pypi.org/project/redis/.
 
 ## Tutorial
 Nice dynamic tutorial: https://try.redis.io/
@@ -39,7 +40,7 @@ get mykey
 ```
 
 ## Network Configuration
-Configuration in file <installation dir>/redis.conf
+Configuration in file: `<installation dir>`/redis.conf
 
 By default, if no "bind" configuration directive is specified, Redis listens
 for connections from all the network interfaces available on the server.
@@ -48,8 +49,10 @@ the "bind" configuration directive, followed by one or more IP addresses.
 
 Examples:
 
+```
 bind 192.168.1.100 10.0.0.1
 bind 127.0.0.1 ::1
+```
 
 WARNING If the computer running Redis is directly exposed to the
 internet, binding to all the interfaces is dangerous and will expose the
@@ -59,12 +62,16 @@ the IPv4 loopback interface address (this means Redis will be able to
 accept connections only from clients running into the same computer it
 is running).
 
+```
 bind 127.0.0.1
+```
 
 Accept connections on the specified port, default is 6379 (IANA #815344).
 If port 0 is specified Redis will not listen on a TCP socket.
 
+```
 port 6379
+```
 
 By default, password is set to "".
 
