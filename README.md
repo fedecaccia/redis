@@ -3,7 +3,7 @@
 Useful scripts to use redis and redis with python.
 
 ## Redis
-Redis is a database engine in memory, based on the storage in hashes tables (key / value) but which can optionally be used as a durable or persistent database. To read more about persistance pleas visit: https://redis.io/topics/persistence.
+Redis is a database engine in memory, based on the storage in hashes tables (key / value) but which can optionally be used as a durable or persistent database. To read more about persistance please visit: https://redis.io/topics/persistence.
 
 ## Installation
 To install redis please visit: https://redis.io/topics/quickstart.<br>
